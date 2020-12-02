@@ -1,0 +1,163 @@
+/*
+	Name : Mehanović Ešref
+	Course : CS412
+	Assignment : Project 2
+	Due date : 05.11.2020.
+	Purpose : Add style to resume
+*/
+
+body, html 
+	{
+    	margin: 0px;
+    	padding: 60px;
+    	/*
+    	background: url('kyoko.png') no-repeat center fixed;     
+    	background-size: cover;
+    	*/
+
+    	background-image: linear-gradient(to right, #40ff9f, #FFFFFF);
+    	font-family: 'Trebuchet MS';
+	}
+
+h1 ,h2
+	{
+		font-size : 40px;
+		text-align : center;
+		color :#FFFFFF;
+		background-color: #000000;
+	} 
+
+h2 {
+		font-size : 26px;
+	} 
+
+p,li,ul,ol,dl,dt	
+	{
+		text-align: justify;
+	}
+
+ul.nav_list 
+	{
+		background-color: #444;
+		margin: 0px;
+  		padding: 0;
+		list-style-type: none;
+  		overflow: hidden;
+	}
+
+li.nav_list 	
+	{
+  		float:left;
+	}
+
+a.nav_list 	
+	{
+		color: white;
+  		display: block;
+  		padding: 12px 14px;
+  		text-decoration: none;
+  		text-align: center;
+	}
+
+li.nav_list:first-child
+	{
+		background-color:green;
+	}	
+
+li.nav_list:last-child
+	{
+		background-color:gray;
+		float: right;
+	}	
+
+
+a:hover 
+	{
+ 		 background-color: #111;
+	}
+
+
+table, th, td 
+		{
+  			border: 4px solid black;
+  			text-align: center;
+  			border-collapse: collapse;
+		}
+
+th 
+	{
+  		height: 40px;
+ 
+	}
+
+section.type1
+	{
+		max-width: 75%;
+  		margin: auto;
+  		border: 3px solid #000000;
+  		text-align: justify;
+  		float: center;
+  		overflow: auto;
+  		padding: 20px;
+  		border-spacing: 20px;
+	}
+
+section.type2
+	{
+		max-width: 100%;
+  		border: none;
+  		text-align: justify;
+  		overflow: auto;
+	}
+
+section.type3
+	{
+		max-width: 40%;
+  		margin: auto;
+  		border: 3px solid #000000;
+  		text-align: justify;
+  		float: center;
+  		overflow: auto;
+  		padding: 20px;
+  		border-spacing: 20px;
+	}
+
+div.type2
+	{
+		max-width: 50%;
+  		margin: auto;
+  		border: 3px solid #000000;
+  		color: #000000;
+  		background-color: #FFFFFF;
+  	}
+
+div.follow
+	{
+		position: fixed;
+		top: 10px;
+		text-align: center;
+		max-width: 50%;
+  		margin: auto;
+  		border: 3px solid;
+  		background-color: #000000;
+	}
+p.follow
+	{
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		border: 3px solid #FFFFFF;
+	}
+#NP
+	{
+		color: yellow;
+		text-align: center;
+		font-size: 10px;
+	}
+
+form 
+	{
+		text-align: center;
+		background-color: #000000;
+		color: #FFFFFF;
+	}
