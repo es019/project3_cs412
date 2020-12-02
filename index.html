@@ -316,9 +316,11 @@ Write your mail here.
 			var z = "HEAT_UP!_SDR2_OST.mp3";
 			var w = "Life_Will_Change.mp3";
 			var k = "Scraper_Sky_High.mp3";
+			var j = "Blood_Drain_Again.mp3";
 			var result0 = y.localeCompare(z);
 			var result1 = y.localeCompare(w);
 			var result2 = y.localeCompare(k);
+			var result3 = y.localeCompare(j);
 			if(result0==0){
 				document.getElementById("source1").src = "sound/Life_Will_Change.mp3";
 				audio1.load();
@@ -340,6 +342,16 @@ Write your mail here.
   				document.getElementById("NPP").width = 150;
 			}
 			if(result2==0){
+				document.getElementById("source1").src = "sound/Blood_Drain_Again.mp3";
+				audio1.load();
+				audio1.play();
+				var y = document.getElementById("source1").src;
+  				x = y.substring(y.lastIndexOf('/')+1);
+  				document.getElementById("NP").innerHTML = "Now playing : " + x;
+  				document.getElementById("NPP").src = "source_pic/eltnum.jpg";
+  				document.getElementById("NPP").width = 150;
+			}
+			if(result3==0){
 				document.getElementById("source1").src = "sound/HEAT_UP!_SDR2_OST.mp3";
 				audio1.load();
 				audio1.play();
@@ -348,7 +360,7 @@ Write your mail here.
   				document.getElementById("NP").innerHTML = "Now playing : " + x;
   				document.getElementById("NPP").src = "source_pic/mono.jpg";
   				document.getElementById("NPP").width = 120;
-			}
+  			}
 		}
 
 		/*function compareString() {
